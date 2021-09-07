@@ -10,8 +10,8 @@ data_source:
 load_data:
   raw_dataset_csv: data/raw/Admission_Prediction.csv
 split_data:
-  train_path: data/processed/Admission_Prediction.csv
-  test_path: data/processed/Admission_Prediction.csv
+  train_path: data/processed/train_Admission_Prediction.csv
+  test_path: data/processed/test_Admission_Prediction.csv
   test_size: 0.2
 
 estimators:
